@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (min-width: 680px){
+	body{
+		width: 100%;
+	}
+}
+
+body{
+	background: #9e0700;
+	background-image: delifood.png;
+}
+
+.logo{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.navegacion{
+	width: 78%;
+	margin: 0px auto;
+	margin-top: -105px;
+	margin-left: 300px;
+	background: #ffba00;
+	border-radius: 10px 0px 10px 0px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.platos{
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.texto {
+	width: 900px;
+	margin-top: 50px;
+	margin-left: 300px;
+	color: #FFFFFF;
+	font-family: 'Sans serif'
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu >li > a{
+	display: block;
+	padding: 25px 25px;
+	color: #DA4747;
+	font-family: 'Blazed';
+	text-decoration: none;
+	font-size: 21px;
+}
+
+.menu li a:hover{
+	color: #F01F1F;
+	transition: all 0.3;
+}
+
+.submenu1{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .6s
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Sans serif';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu2{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Sans serif';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu3{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s
+}
+
+.submenu3 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Sans serif';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu4{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s
+}
+
+.submenu4 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Sans serif';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu4{
+	visibility: visible;
+	opacity: 1;
+}
+
+.pedidos{
+	margin-top: 50px;
+	margin-left: 300px;
+}
+
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+.contenedor .form .form-header .form-title span{
+    color: #fff;
+}
+.contenedor .form {
+    background: rgba(0,0,0,.6);
+    width: 80%;
+    max-width: 700px;
+    margin: left;
+    padding: 5px 35px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+.contenedor .form .form-label{
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    font-family: Roboto;
+    position: relative;
+
+}
+.contenedor .form .form-input, .form-textarea{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: Roboto;
+}
+
+.contenedor .form .btn-submit{
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: red;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+	border-radius: 20px 20px 20px 20px;
+
+}
+
+.contenedor .form .btn-submit:hover {
+    font-size: 125%;
+}
+
+
+
